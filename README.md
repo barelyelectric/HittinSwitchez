@@ -1,12 +1,12 @@
 What this script does:
 ----------------------
-Scans current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
+* Scans current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
 
-Patch all .wjp and .wt files in-place with new expiry date.
+* Patch all .wjp and .wt files in-place with new expiry date.
 
-Change 'test' license to 'free'.
+* Change 'test' license to 'free'.
 
-Displays the changes made.
+* Displays the changes made.
 
 
 How the patch script works:
@@ -27,9 +27,9 @@ How m_homes_02.wt integrity was verified post-patch:
 
 `python pwtdecode.py m_homes_02.pwt > m_homes_02-orig.txt`
 
-Repeat for the patched version (in a separate folder) except output to m_homes_02-patched.txt
+* Repeat for the patched version (in a separate folder) except output to m_homes_02-patched.txt
 
-Nnow compare the two files, there should be no difference.
+* Now compare the two files, there should be no difference.
 
 `fc/b m_homes_02-orig.txt m_homes_02-patched.txt`
 
