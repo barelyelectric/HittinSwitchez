@@ -1,7 +1,5 @@
-# <ins>patchwt.py</ins>
-
-What this script does:
-----------------------
+What this script (patchwt.py) does:
+-----------------------------------
 * Scans current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
 
 * Patch all .wjp and .wt files in-place with new expiry date.
