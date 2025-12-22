@@ -40,8 +40,9 @@ I made sure we only modified the expiry data and nothing else.
 
 Notes:
 ------
-requirements.txt is only needed to run wtextract.py and pwtdecode.py to verify m_homes_02.wt
-Big thanks to CobySucks for purchasing the game and to Jessy (diamondman) for WTExtractor
+* requirements.txt is only needed to run wtextract.py and pwtdecode.py to verify m_homes_02.wt
+
+* Big thanks to @cobysucks for providing the game and to Jessy (diamondman) for WTExtractor
 
 
 Sources:
