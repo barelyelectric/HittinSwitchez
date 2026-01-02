@@ -1,6 +1,6 @@
 What is this all about?
 -----------------------
-In the PC game Eazy-E Hittin' Switchez from his 2002 CD/DVD release Impact of a Legend, 
+In the 2002 Eazy-E PC game Hittin' Switchez (CD/DVD release of Impact of a Legend), 
 there are a number of textures that were (accidentally?) set to expire three months after 
 their export date which result in loading errors and broken textures in-game. They are:
 
