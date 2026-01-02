@@ -5,35 +5,35 @@ there are a number of textures that were (accidentally?) set to expire three mon
 their export date which result in loading errors and broken textures in-game. They are:
 
 watts<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_public.wjp`<br>
-`2002   1018339004   2002-04-09 07:56:44 UTC t_watts_1.wjp`<br>
-`2002   1018262269   2002-04-08 10:37:49 UTC t_wujiang.wjp`<br>
+`2002-04-09 02:42:27 UTC t_public.wjp`<br>
+`2002-04-09 07:56:44 UTC t_watts_1.wjp`<br>
+`2002-04-08 10:37:49 UTC t_wujiang.wjp`<br>
 
 ingle<br>
-`2002   1018338279   2002-04-09 07:44:39 UTC t_compton.wjp`<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_inglewood.wjp`<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_inglewood_1.wjp`<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_inglewood_2.wjp`<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_public.wjp`<br>
-`2002   1018338717   2002-04-09 07:51:57 UTC t_wall.wjp`<br>
+`2002-04-09 07:44:39 UTC t_compton.wjp`<br>
+`2002-04-09 02:42:27 UTC t_inglewood.wjp`<br>
+`2002-04-09 02:42:27 UTC t_inglewood_1.wjp`<br>
+`2002-04-09 02:42:27 UTC t_inglewood_2.wjp`<br>
+`2002-04-09 02:42:27 UTC t_public.wjp`<br>
+`2002-04-09 07:51:57 UTC t_wall.wjp`<br>
 
 crenshaw<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_public.wjp`<br>
-`2002   1018338717   2002-04-09 07:51:57 UTC t_wall.wjp`<br>
+`2002-04-09 02:42:27 UTC t_public.wjp`<br>
+`2002-04-09 07:51:57 UTC t_wall.wjp`<br>
 
 compton<br>
-`2002   1018338254   2002-04-09 07:44:14 UTC m_homes_02.wt`<br>
-`2002   1018338279   2002-04-09 07:44:39 UTC t_compton.wjp`<br>
-`2002   1018320147   2002-04-09 02:42:27 UTC t_public.wjp`<br>
-`2002   1018338717   2002-04-09 07:51:57 UTC t_wall.wjp`<br>
+`2002-04-09 07:44:14 UTC m_homes_02.wt`<br>
+`2002-04-09 07:44:39 UTC t_compton.wjp`<br>
+`2002-04-09 02:42:27 UTC t_public.wjp`<br>
+`2002-04-09 07:51:57 UTC t_wall.wjp`<br>
 
 What this script (patchwt.py) does:
 -----------------------------------
-* Scans current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
+* Scans the current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
 
-* Patch all .wjp and .wt files in-place with new expiry date.
+* Patches all .WJP and .WT files in-place with new expiry date.
 
-* Change 'test' license to 'free'.
+* Changes 'test' license to 'free'.
 
 * Displays the changes made.
 
