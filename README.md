@@ -29,7 +29,7 @@ compton<br>
 
 What this script (patchwt.py) does:
 -----------------------------------
-* Scans the current directory for WildTangent .wjp and .wt files, and displays current expiry dates.
+* Scans current directory for WildTangent .WJP and .WT files, and displays expiry dates.
 
 * Patches all .WJP and .WT files in-place with new expiry date.
 
@@ -49,10 +49,10 @@ key from the modified headers and re-encrypts the payload so the file remains va
 
 How m_homes_02.wt integrity was verified post-patch:
 ----------------------------------------------------
-For the .wjp files the .jpg can be extracted and compared to confirm there was no
-changes to the images post-patch. For the .wt file there's a few extra steps.
-None of this needs to actually be done after the patch, I just wanted to show how
-I made sure we only modified the expiry data and nothing else.
+For the .WJP files the .JPG can be extracted and binary compared to confirm there are 
+no changes to the image post-patch. For the .WT file there's a few extra steps. None 
+of this needs to actually be done after the patch, I just wanted to show how I made 
+sure we only modified the expiry data and nothing else.
 ```
 python wtextract.py m_homes_02.wt m_homes_02.wt.pwt
 ```
