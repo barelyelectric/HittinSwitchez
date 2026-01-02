@@ -71,17 +71,18 @@ fc/b m_homes_02-orig.txt m_homes_02-patched.txt
 
 Notes:
 ------
-* VM files are here https://archive.org/details/hittin-switchez
+* VM and tutorial for running the game are found here https://archive.org/details/hittin-switchez
 
 * `requirements.txt` is only needed to run `wtextract.py` and `pwtdecode.py` to verify `m_homes_02.wt`
 
-* Big thanks to @cobysucks for providing the game and to Jessy (diamondman) for WTExtractor
+* Big thanks to [@cobysucks](https://www.youtube.com/@CobySucks) for providing the game and to Jessy
+  (diamondman) [https://github.com/diamondman/WTExtractor](https://github.com/diamondman/WTExtractor) for all his hard work on WTExtractor (wtextract.py/pwtdecode.py)
 
 
 Todo:
 -----
 * Create standalone patcher utility and/or diff patches
 
-Sources:
---------
-wtextract.py & pwtdecode.py - https://github.com/diamondman/WTExtractor
+Other Links:
+------------
+https://web.archive.org/web/20040404035712/http://www.wildtangent.com/default.asp?pageID=dev_downloads
