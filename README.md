@@ -87,4 +87,5 @@ Todo:
 
 Other Links:
 ------------
-https://web.archive.org/web/20040404035712/http://www.wildtangent.com/default.asp?pageID=dev_downloads
+https://web.archive.org/web/20040404035712/http://www.wildtangent.com/default.asp?pageID=dev_downloads<br><br>
+https://labusinessjournal.com/news/a-rappers-tribute-by-unlikely-partners
